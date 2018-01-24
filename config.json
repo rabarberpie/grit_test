@@ -1,0 +1,15 @@
+{
+    "fetch-manifests": [
+	{
+	    "method": "git",
+	    "remote-url": "https:/blabla.com",
+	    "repository": "manifests/more_manifests",
+	    "branch": "stable",
+	    "directory": "fetched/stable"
+	}
+    ],
+	
+    "manifest-layers": [
+	"manifest1"
+    ]
+}

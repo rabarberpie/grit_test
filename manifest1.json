@@ -1,0 +1,38 @@
+{
+    "profiles": [
+	{
+	    "profile": "global",
+	    "branch": "master"
+	},
+	{
+	    "profile": "default",
+	    "remote-name": "github",
+	    "remote-url": "https://github.com",
+	    "remote-push-url": "https://github2.com"
+	},
+	{
+	    "profile": "android",
+	    "remote-name": "android",
+	    "remote-url": "https://android.googlesource.com",
+	    "x-remote-branch": "oreo-release",
+	    "single-branch": "yes"
+	}
+    ],
+
+    "default-profile": "default",
+    "global-profile": "global",
+    
+    "repositories": [
+	{
+	    "repository": "rabarberpie/gitre",
+	    "directory": "local/gitre",
+	    "groups": ["g1", "g2", "g3"]
+	},
+	{
+	    "repository": "platform/build",
+	    "directory": "platform/build",
+	    "groups": ["g3", "g4"],
+	    "use-profile": "android"
+	}
+    ]
+}

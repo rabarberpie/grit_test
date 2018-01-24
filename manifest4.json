@@ -1,0 +1,12 @@
+{
+    "repositories": [
+	{
+	    "repository": "rabarberpie/gitre",
+	    "directory": "local/gitre/temp"
+	},
+	{
+	    "repository": "platform/build/soong",
+	    "directory": "platform/build/soong"
+	}
+    ]
+}

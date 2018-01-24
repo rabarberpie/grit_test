@@ -1,0 +1,19 @@
+{
+    "profiles": [
+	{
+	    "profile": "global",
+	    "branch": "master"
+	},
+	{
+	    "profile": "default",
+	    "remote-name": "github_mirror",
+	    "remote-url": "https://github-mirror.com",
+	    "remote-push-url": "https://github2-mirror.com"
+	},
+	{
+	    "profile": "android",
+	    "single-branch": "null"
+	}
+    ]
+}
+

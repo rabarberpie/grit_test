@@ -2,14 +2,15 @@
     "fetch-manifests": [
 	{
 	    "method": "git",
-	    "remote-url": "https:/blabla.com",
-	    "repository": "manifests/more_manifests",
-	    "branch": "stable",
-	    "directory": "fetched/stable"
+	    "remote-url": "https://github.com",
+	    "repository": "rabarberpie/grit_test2",
+	    "branch": "master",
+	    "directory": "manifests2"
 	}
     ],
 	
     "manifest-layers": [
-	"manifest1"
+	"manifests1/manifest1",
+	"manifests2/manifest1"
     ]
 }

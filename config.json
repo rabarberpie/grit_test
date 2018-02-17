@@ -10,7 +10,7 @@
     ],
 	
     "manifest-layers": [
-	"manifests1/manifest1",
-	"manifests2/manifest1"
+	"manifest1",
+	"/manifests2/manifest1"
     ]
 }

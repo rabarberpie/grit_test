@@ -24,8 +24,8 @@
 
     "repositories": [
 	{
-	    "repository": "rabarberpie/gitre",
-	    "directory": "local/gitre/temp"
+	    "repository": "rabarberpie/grit",
+	    "directory": "local/grit/temp"
 	}
     ]
 }

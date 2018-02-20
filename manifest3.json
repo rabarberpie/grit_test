@@ -6,12 +6,14 @@
 	},
 	{
 	    "profile": "default",
+	    "inherit": "global",
 	    "remote-name": "github",
 	    "remote-url": "https://github.com",
 	    "remote-push-url": "https://github2.com"
 	},
 	{
 	    "profile": "android",
+	    "inherit": "global",
 	    "remote-name": "android",
 	    "remote-url": "https://android.googlesource.com",
 	    "x-remote-branch": "oreo-release",
@@ -20,7 +22,6 @@
     ],
 
     "default-profile": "android",
-    "global-profile": "global",
 
     "repositories": [
 	{

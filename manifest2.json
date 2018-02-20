@@ -6,6 +6,7 @@
 	},
 	{
 	    "profile": "default",
+	    "inherit": "global",
 	    "remote-name": "github_mirror",
 	    "remote-url": "https://github-mirror.com",
 	    "remote-push-url": "https://github2-mirror.com"

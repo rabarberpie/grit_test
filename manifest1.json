@@ -35,5 +35,10 @@
 	    "groups": ["g3", "g4"],
 	    "use-profile": "android"
 	}
+    ],
+
+    "run-after-clone": [
+	"pwd",
+	"echo 'RUN AFTER CLONE'"
     ]
 }
